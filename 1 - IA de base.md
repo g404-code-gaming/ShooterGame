@@ -15,21 +15,34 @@ Dans le **Content Browser**, créez un dossier nommé `IA`.
 Faites un clic droit > **Blueprint Class** > Sélectionnez **Character**.
 Nommez-le `PNJ_Attaquant`.
 
+![image 2](/Images/1_2_creerIA.png)
+
 ### 2. Configuration visuelle et sensorielle
 
 Dans le Blueprint `PNJ_Attaquant`, dans l'onglet **Components**, sélectionnez le composant **Mesh**.
 
 > Dans l'exemple, nous allons utiliser le Skeletal Mesh `SKM_Quinn`.
 
+![image 3](/Images/1_3_mesh.png)
+
 **Ajout de la vision :** Cliquez sur **Add** et cherchez le composant **Pawn Sensing**.
+
+![image 4](/Images/1_4_pawnsensing.png)
+
    - *Réglage :* Dans les détails du Pawn Sensing, vous pouvez ajuster le `Peripheral Vision Angle` (ex: 90 degrés) pour définir le champ de vision de l'IA.
+
+![image 5](/Images/1_5_parametre.png)
 
 ### 3. Navigation dans le niveau
 Dans l'éditeur de niveau, cherchez l'acteur **Nav Mesh Bounds Volume**.
 
+![image 6](/Images/1_6_navmesh.png)
+
 Placez-le et redimensionnez-le pour couvrir toute la zone de déplacement de l'IA.
 
 > **Astuce :** Appuyez sur la touche **P** pour afficher la zone de navigation (en vert).
+
+![image 7](/Images/1_7_taillenav.png)
 
 ---
 
