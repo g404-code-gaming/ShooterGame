@@ -1,6 +1,5 @@
-# Cours : Création d'une IA de Base sur Unreal Engine 5
+# 1 - Création d'une IA de Base sur Unreal Engine 5
 
-**Formateur :** Soan Garnier  
 **Objectif :** Apprendre à configurer un PNJ (Personnage Non-Joueur) capable de patrouiller de manière autonome, de détecter le joueur par la vue et d'enclencher une action de défaite au contact.
 
 ---
