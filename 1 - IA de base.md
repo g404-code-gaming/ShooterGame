@@ -6,22 +6,28 @@
 
 ## Chapitre 1 : Mise en place de l'IA
 
-### 1.1. Création du Blueprint
-1. Dans le **Content Browser**, créez un dossier nommé `IA`.
-2. Faites un clic droit > **Blueprint Class** > Sélectionnez **Character**.
-3. Nommez-le `PNJ_Attaquant`.
+### 1. Création du Blueprint
 
-### 1.2. Configuration visuelle et sensorielle
-1. Ouvrez le Blueprint `PNJ_Attaquant`.
-2. Dans l'onglet **Components**, sélectionnez le composant **Mesh**.
-3. Dans le panneau **Details**, assignez le Skeletal Mesh `SKM_Quinn`.
-4. **Ajout de la vision :** Cliquez sur **Add** et cherchez le composant **Pawn Sensing**.
+Dans le **Content Browser**, créez un dossier nommé `IA`.
+
+Faites un clic droit > **Blueprint Class** > Sélectionnez **Character**.
+Nommez-le `PNJ_Attaquant`.
+
+### 2. Configuration visuelle et sensorielle
+
+Dans le Blueprint `PNJ_Attaquant`, dans l'onglet **Components**, sélectionnez le composant **Mesh**.
+
+> Dans l'exemple, nous allons utiliser le Skeletal Mesh `SKM_Quinn`.
+
+**Ajout de la vision :** Cliquez sur **Add** et cherchez le composant **Pawn Sensing**.
    - *Réglage :* Dans les détails du Pawn Sensing, vous pouvez ajuster le `Peripheral Vision Angle` (ex: 90 degrés) pour définir le champ de vision de l'IA.
 
-### 1.3. Navigation dans le niveau
-1. Dans l'éditeur de niveau, cherchez l'acteur **Nav Mesh Bounds Volume**.
-2. Placez-le et redimensionnez-le pour couvrir toute la zone de déplacement de l'IA.
-3. **Astuce :** Appuyez sur la touche **P** pour afficher la zone de navigation (en vert).
+### 3. Navigation dans le niveau
+Dans l'éditeur de niveau, cherchez l'acteur **Nav Mesh Bounds Volume**.
+
+Placez-le et redimensionnez-le pour couvrir toute la zone de déplacement de l'IA.
+
+> **Astuce :** Appuyez sur la touche **P** pour afficher la zone de navigation (en vert).
 
 ---
 
