@@ -11,4 +11,4 @@ Nous allons créer et programmer des PNJ dangereux qui vont se déplacer, détec
 
 Nous allons ajouter les bases nécessaire pour que le joueur puisse combattre avec une arme à feu. Cela implique de pouvoir rammasser l'arme, tirer sur des ennemis, et subir soi-même des dégâts. 
 
-[Partie 1 - IA de base]()
+[Partie 1 - IA de base](https://github.com/g404-code-gaming/ShooterGame/blob/main/1%20-%20IA%20de%20base.md)
