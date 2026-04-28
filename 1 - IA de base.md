@@ -10,6 +10,8 @@
 
 Dans le **Content Browser**, créez un dossier nommé `IA`.
 
+![image 1](/Images/1_1_dossier.png)
+
 Faites un clic droit > **Blueprint Class** > Sélectionnez **Character**.
 Nommez-le `PNJ_Attaquant`.
 
