@@ -2,7 +2,7 @@
 
 **Objectif :** Apprendre à migrer et adapter le système d'équipement d'arme du template First Person vers le propre projet personnel.
 
-Image arme 
+![image 1](/Images/2_debut.png)
 
 ---
 
@@ -20,7 +20,7 @@ Avant de modifier le code, nous devons isoler les ressources pour ne pas impacte
    * `BP_PickupRifle` 
    * `BP_Weapon_Component`
 
-Image Duplication 
+![image 2](/Images/2_duplique.png)
 
 4. Renommez-les immédiatement :
    * `BP_PickupRifle_Stealthgame`
@@ -38,10 +38,12 @@ Dans `BP_PickupRifle_Stealthgame`, modifiez tout les nodes qui ne sont pas adapt
 1. Cast to FirstPersonCharacter ==> Cast to StealthgameCharacter
 2. Rebranchez les sorties du Cast vers les nœuds suivants (Target, Character, etc.).
 
-Image pickuprifle
+![image 3](/Images/2_pickuprifle1.png)
 
 3. Cast to BP_Weapon_Component ==> Cast to BP_Weapon_Component_stealthgame.
 4. Add BP_weapon_Component ==> BP_weapon_Component_stealthgame.
+
+![image 4](/Images/2_pickuprifle2.png)
 
 ### B. Configuration du Component (BP_Weapon_Component_stealthgame)
 C'est ici que se trouve la logique de tir et l'attachement au personnage.
@@ -51,7 +53,7 @@ Dans `BP_Weapon_Component_stealthgame`, modifiez tout les nodes qui ne sont pas 
 1. Cast to FirstPersonCharacter ==> Cast to StealthgameCharacter
 2. Rebranchez les sorties du Cast vers les nœuds suivants (Target, Character, etc.).
 
-Image weaponcomponent 
+![image 5](/Images/2_weaponcomponent.png)
 
 ---
 
