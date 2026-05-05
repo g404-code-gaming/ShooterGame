@@ -1,4 +1,4 @@
-# Fiche de Cours : Système de Ramassage d'Arme (UE5)
+# Système de Ramassage d'Arme
 
 **Objectif :** Apprendre à migrer et adapter le système d'équipement d'arme du template First Person vers le propre projet personnel.
 
