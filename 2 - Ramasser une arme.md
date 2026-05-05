@@ -64,3 +64,7 @@ Dans `BP_Weapon_Component_stealthgame`, modifiez tout les nodes qui ne sont pas 
 2. Lancez le jeu et marcher sur votre arme.
 
 Si tout fonctionne, l'arme disparait, et une arme apparait dans les mains de votre personnage, vous permettant de tirer des balles avec le clic gauche de la souris.
+
+![image 5](/Images/2_fin.png)
+
+
