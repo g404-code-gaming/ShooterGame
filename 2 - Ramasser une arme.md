@@ -67,4 +67,16 @@ Si tout fonctionne, l'arme disparait, et une arme apparait dans les mains de vot
 
 ![image 5](/Images/2_fin.png)
 
+## 4. Personnalisation 
 
+### Modifier le projectile 
+
+Si vous souhaitez modifier votre projectile, il faut créer votre propre blueprint de `balle` (vous pouvez duppliquer celle du projectile déjà existant).  
+
+Il est possible de modifier l'apparence du projectiel dans le blueprint du Weapon_Component : 
+
+![image balle](/Images/2_balle.png)
+
+Pour empécher le projectile de rebondir, il est possible de supprimer le code par défaut d'Unreal Engine. 
+
+![image balle](/Images/2_ballesupr.png)
